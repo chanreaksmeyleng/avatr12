@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>AVATR 12</title>
+    <style>
+      body {
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg lh-lg" style="background-color: #262626">
+        <div class="container-fluid">
+          <a class="icon-link icon-link-hover link-light link-underline-dark ms-5" style="--bs-link-hover-color-rgb: 25, 135, 84;" href="#">AVATR 11</a>
+          <a class="icon-link icon-link-hover link-primary link-underline-primary ms-3" style="--bs-link-hover-color-rgb: 25, 135, 84;" href="#">AVATR 12</a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <img src="./image/logo.png" height="14px" alt="" />
+              </li>
+            </ul>
+            <div class="me-5 d-flex flex-row align-items-center">
+              <a class="icon-link icon-link-hover link-light link-underline-dark me-3" style="--bs-link-hover-color-rgb: 25, 135, 84;" href="#">About Us</a>
+              <a class="icon-link icon-link-hover link-light link-underline-dark me-3" style="--bs-link-hover-color-rgb: 25, 135, 84;" href="#">Oversea</a>
+              <a class="icon-link icon-link-hover link-light link-underline-dark me-3" style="--bs-link-hover-color-rgb: 25, 135, 84;" href="#">Design</a>
+              <a class="icon-link icon-link-hover link-light link-underline-dark me-3" style="--bs-link-hover-color-rgb: 25, 135, 84;" href="#">Tech</a>
+              <li class="nav-item dropdown list-group-numbered text-white">
+                <a
+                  class="nav-link dropdown-toggle fs-6"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <i class="fa-solid fa-earth-americas"></i>
+                  EN
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Khmer</a></li>
+                  <li><a class="dropdown-item" href="#">English</a></li>
+                </ul>
+              </li>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-4" style="font-size: 36px;">Color inspired by nature</div>
+                <div class="col-2">
+                    <div class="border-start">
+                        <p class="mx-2 m-0 p-0">Length</p>
+                        <p class="mx-2 m-0 p-0" style="font-size: 27px;">5020mm</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="border-start">
+                        <p class="mx-2 m-0 p-0">Width</p>
+                        <p class="mx-2 m-0 p-0" style="font-size: 27px;">1999mm</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="border-start">
+                        <p class="mx-2 m-0 p-0">Height</p>
+                        <p class="mx-2 m-0 p-0" style="font-size: 27px;">1460mm</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="border-start">
+                        <p class="mx-2 m-0 p-0">Wheelbase</p>
+                        <p class="mx-2 m-0 p-0" style="font-size: 27px;">3020mm</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contain mt-5">
+            <div class="row">
+                <div class="col-12">
+                    <img src="./image/Polar_Light_Grey.png" class="w-100" alt="" id="mainimage">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row d-flex flex-row justify-content-center">
+                <div class="col-1 d-flex flex-column align-items-center">
+                     <p onclick="changemainimageDual_Grey(this.src)" class="m-0 p-0"><a href="#" style="color: black;"><i class="fa-solid fa-square" style="font-size: 26px;"></i></a></p>
+                     <p class="m-0 p-0" style="font-size: 14px;">Dual Grey</p>
+                </div>
+                <div class="col-1 d-flex flex-column align-items-center">
+                    <p onclick="changemainimageGlossy_Grey(this.src)" class="m-0 p-0"><a href="#" style="color: #525252;"><i class="fa-solid fa-square" style="font-size: 26px;"></i></a></p>
+                    <p class="m-0 p-0" style="font-size: 14px;">Glossy Grey</p>
+                </div>
+                <div class="col-1 d-flex flex-column align-items-center">
+                    <p onclick="changemainimageGlossy_White(this.src)" class="m-0 p-0"><a href="#" style="color: #BFBFBF;"><i class="fa-solid fa-square" style="font-size: 26px;"></i></a></p>
+                    <p class="m-0 p-0" style="font-size: 14px;">Glossy White</p>
+                </div>
+                <div class="col-1 d-flex flex-column align-items-center">
+                    <p onclick="changemainimageMatte_Purple(this.src)" class="m-0 p-0"><a href="#" style="color: #423A43;"><i class="fa-solid fa-square" style="font-size: 26px;"></i></a></p>
+                    <p class="m-0 p-0" style="font-size: 14px;">Matte Purple</p>
+                </div>
+                <div class="col-1 d-flex flex-column align-items-center">
+                    <p onclick="changemainimagePolar_Light_Grey(this.src)" class="m-0 p-0"><a href="#" style="color: #8A7967;"><i class="fa-solid fa-square" style="font-size: 26px;"></i></a></p>
+                    <p class="m-0 p-0" style="font-size: 14px;">Polar Light</p>
+                </div>
+            </div>
+        </div>
+    </main>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"
+  ></script>
+
+  <script>
+      function changemainimageDual_Grey(src) {
+        document.getElementById("mainimage").src = "./image/Dual_Grey_Black.png";
+      }
+      function changemainimageGlossy_Grey(src) {
+        document.getElementById("mainimage").src = "./image/Glossy_Grey.png";
+      }
+      function changemainimageGlossy_White(src) {
+        document.getElementById("mainimage").src = "./image/Glossy_White.png";
+      }
+      function changemainimageMatte_Purple(src) {
+        document.getElementById("mainimage").src = "./image/Matte_Purple.png";
+      }
+      function changemainimagePolar_Light_Grey(src) {
+        document.getElementById("mainimage").src = "./image/Polar_Light_Grey.png";
+      }
+    </script>
+
+</html>
